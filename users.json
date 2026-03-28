@@ -1,0 +1,18 @@
+{
+  "mentor1": {
+    "id": "mentor1",
+    "name": "Mentor",
+    "role": "mentor",
+    "email": "mentor@gmail.com",
+    "password": "123",
+    "mentees": ["mentee1"]
+  },
+  "mentee1": {
+    "id": "mentee1",
+    "name": "Mentee",
+    "role": "mentee",
+    "email": "mentee@gmail.com",
+    "password": "123",
+    "mentor": "mentor1"
+  }
+}
